@@ -1,0 +1,12 @@
+.smart-list img{
+    width: 300px;
+}
+
+.smart-info{
+    text-align: center;
+}
+
+.smart-list{
+    display: flex;
+    justify-content: space-between;
+}

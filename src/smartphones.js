@@ -1,0 +1,68 @@
+const smartphones = [
+    {
+        poster_path: "https://andro-news.com/images/content/OnePlus_9_Pro_28.02.jpg",
+        title: "OnePlus 9 Pro",
+        price: "434.500 - 500.000 KZT",
+        cpu: "Snapdragon 888",
+        display: "Amoled 6.7 inches",
+        os: "Android 11", 
+    },
+    {
+        poster_path: "https://www.technodom.kz/media/catalog/product/cache/1366e688ed42c99cd6439df4031862c6/e/d/ed1e3c3e66d42450a395d445041c55e80931c454_232900_1x.jpg",
+        title: "Samsung S21 Ultra",
+        price: "570.000 KTZ",
+        cpu: "Exynos 2100 (Snapdragon 888)",
+        display: "Amoled 6.8 inches",
+        os: "Android 11",
+    },
+    {
+        poster_path: "https://www.technodom.kz/media/catalog/product/cache/1366e688ed42c99cd6439df4031862c6/8/b/8b58a2691c3d7d8813a610bcc804b1bb35da8721_228636_1.jpg",
+        title: "Iphone 12 Pro Max",
+        price: "473.000 - 602.000 KTZ",
+        cpu: "Bionic A14",
+        display: "Oled 6.7 inches",
+        os: "IOS 14",
+    },
+    {
+        poster_path: "https://www.bell.ca/Styles/wireless/Google_Pixel_4a/Google_Pixel-4a_Black_lrg1_en.png",
+        title: "Pixel 4A",
+        price: "220.000 KTZ",
+        cpu: "Snapdragon 730G",
+        display: "Amoled 5.8 inches",
+        os: "Android 11",
+    },
+    {
+        poster_path: "https://object.pscloud.io/cms/cms/Photo/img_0_77_3014_0_1.jpg",
+        title: "Xiaomi 11 ultra",
+        price: "599 990 KZT",
+        cpu: "Snapdragon 888",
+        display: "Amoled 6.8 inches",
+        os: "Android 11",
+    },
+    {
+        poster_path: "https://object.pscloud.io/cms/cms/Photo/img_0_77_2973_0_1_320.webp",
+        title: "Iphone 12",
+        price: "489 990 KTZ",
+        cpu: "Bionic A14",
+        display: "Oled 6.1 inches",
+        os: "IOS 14",
+    },
+    {
+        poster_path: "https://object.pscloud.io/cms/cms/Photo/img_0_77_2989_4_1_320.webp",
+        title: "Samsung S20 FE",
+        price: "279 990 KTZ",
+        cpu: "Exynos 990",
+        display: "Amoled 6.5 inches",
+        os: "Android 10",
+    },
+    {
+        poster_path: "https://object.pscloud.io/cms/cms/Photo/img_0_77_2782_0_1.jpg",
+        title: "Samsung S21",
+        price: "409 990 KTZ",
+        cpu: "Exynos 2100 (Snapdragon 888)",
+        display: "Amoled 6.2 inches",
+        os: "Android 11",
+    },
+]
+
+export default smartphones;

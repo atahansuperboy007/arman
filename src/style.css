@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.links-list a{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+a:visited {
+  color: black;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  background-color: rgb(39, 39, 39);
+}
+
+.links-list a {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+header a::before {
+  content: "";
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(226, 226, 226);
+  transition: 0.3s;
+}
+
+header a:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.links-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 25%;
+  margin: 0 0 0 40px;
+}
+
+.logo a {
+  font-size: 32px;
+}
+
+.links {
+  width: 30%;
+  text-align: center;
+}
+
+.links a {
+  margin: 0 30px 0 0;
+}
+
+.input {
+  width: 40%;
+  text-align: right;
+}
+
+input {
+  padding: 5px 24px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 18px;
+}
+
+#home {
+  text-align: center;
+  background-image: url("./comp/img/mac-air-2020.jpeg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-bottom: 1px solid rgba(0, 0, 0);
+}
+
+#home h1 {
+  padding: 30px 0 0 0;
+}
+
+#home h1 {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  10% {
+    color: rgba(0, 0, 0, 0);
+  }
+  30% {
+    color: rgba(0, 0, 0, 0.3);
+    letter-spacing: 20px;
+  }
+}
+
+.smart-list img {
+  width: 300px;
+  transition: 0.4s;
+}
+
+.smart-list img:hover{
+  transform: scale(0.9);
+}
+
+.smart-info {
+  text-align: center;
+}
+
+.smart-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.smart-item {
+  background-color: white;
+  margin: 40px 0 50px 0;
+}
+
+.warranty-image img {
+  width: 70vh;
+  border-radius: 4px;
+}
+
+.warranty-info {
+  display: flex;
+  padding: 100px 0 100px 0;
+  border-bottom: 1px solid rgba(0, 0, 0);
+}
+
+.warranty-text {
+  margin: 100px 0 50px 20px;
+}
+
+#warranty {
+  margin: 500px 0 0 0;
+}
+.footer-list {
+  display: flex;
+}
+
+.footer-links a {
+  display: block;
+}
+
+#footer ul {
+  justify-content: space-between;
+  padding: 0 0 30px 0;
+  margin: 50px 0 100px 0;
+  border-bottom: 1px solid rgba(0, 0, 0);
+}
+
+li {
+  list-style: none;
+}
+
+li a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#created {
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 0 0 50px 0;
+}
+
+.item-info img {
+  width: 500px;
+}
+
+.item-info{
+  display: flex;
+  margin: 40px 0 0 0;
+}
+
+
+.laptops-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.laptop-item img {
+  width: 300px;
+  height: 200px;
+  transition: 0.4s;
+}
+
+.laptop-item img:hover{
+  transform: scale(0.9);
+}
+
+
+.laptop-item{
+  margin: 40px 0 0 0;
+}
+
+.laptop-info-page{
+  display: flex;
+  margin: 40px 0 0 0;
+}
+
+.laptop-info-page img{
+  width: 500px;
+}
+
+.laptop-info{
+  text-align: center;
+}
+.title{
+  display: flex;
+  margin: 20px 0;
+}
+
+.processor{
+  display: flex;
+  margin: 20px 0;
+}
+
+.display{
+  display: flex;
+  margin: 20px 0;
+}
+
+.operation-system{
+  display: flex;
+  margin: 20px 0;
+}
+
+.price{
+  display: flex;
+  margin: 20px 0;
+}
+
+.name-title{
+  margin: 0 70px 0 0;
+}
+
+.name-processor{
+  margin: 0 60px 0 0;
+}
+
+.name-display{
+  margin: 0 77px 0 0
+}
+
+.name-os{
+  margin: 0 35px 0 0;
+}
+
+.name-price{
+  margin: 0 100px 0 0;
+}
+
+.amount-of-products{
+  display: flex;
+}
+
+.amount-of-products p{
+  margin: 0 0 0 15px;
+}
+
+
+.services{
+  padding: 100px 0;
+  border-bottom: 1px solid black;
+}
+.services-item{
+  width: 30%;
+}
+
+.services-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-image{
+  width: 300px;
+  height: 212px;
+  border-radius: 8px;
+}
+
+.services-link{
+  margin: 10px 0 0 0;
+}
+
+.services-link a{
+  color: rgb(59, 59, 59);
+}
+
+.services-link a:hover{
+  text-decoration: underline;
+}
+
+button{
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: 1px solid rgb(180, 180, 180);
+  transition: 0.3s;
+}
+
+button:hover{
+  transform: scale(0.9);
+}

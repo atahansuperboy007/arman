@@ -1,0 +1,68 @@
+const laptops = [
+    {
+        poster_path: "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png",
+        title: "Macbook Air m1",
+        price: "556 990 KTZ",
+        cpu: "M1 chip",
+        operation_system: "MacOS BigSur",
+        display: "Retina 1440x2550",
+    },
+    {
+        poster_path: "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/pc/matebook-d-16-amd-2021/specs/size.png",
+        title: "Matebook D16",
+        price: "399 900 KTZ",
+        cpu: "AMD Ryzen™ 5 4600H",
+        operation_system: "Windows 10",
+        display: "IPS 16.1 inches",
+    },
+    {
+        poster_path: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/dell_xps_15_4zu3.jpg",
+        title: "DELL XPS 15",
+        price: "1 381 700 KTZ",
+        cpu: "Intel Core i7 10750H",
+        operation_system: "Windows 10 Home",
+        display: "15.6 3840 x 2400 Ultra HD+",
+    },
+    {
+        poster_path: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/3-4-scaled-e1585829325535_07.jpg",
+        title: "ASUS ROG Strix",
+        price: "526 300 KTZ",
+        cpu: "AMD Ryzen 5 5600H",
+        operation_system: " - ",
+        display: "15.6 inches FullHD",
+    },
+    {
+        poster_path: "https://images.satu.kz/136877404_w600_h600_136877404.jpg",
+        title: "Macbook Pro 16",
+        price: "1 022 900 KTZ",
+        cpu: "Intel Core i7 2,6 ГГц",
+        operation_system: "macOS Catalina",
+        display: "Retina 16 3072×1920",
+    },
+    {
+        poster_path: "https://static.acer.com/up/Resource/Acer/Laptops/Nitro_5/Image/20190222/Acer-Nitro-5-AN515-54-preview.png",
+        title: "Acer Nitro 5",
+        price: "554 500 KTZ",
+        cpu: "Intel Core i7 10750H",
+        operation_system: " - ",
+        display: "17.3 FullHD",
+    },
+    {
+        poster_path: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/Asus_X571GD-BQ353_01.jpg",
+        title: "ASUS X571GT",
+        price: "338 300 KTZ",
+        cpu: "Intel Core i5 9300H",
+        operation_system: " - ",
+        display: "15.6 FullHD",
+    },
+    {
+        poster_path: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/HPSpectrex2-12-c0__1__01.jpg",
+        title: "HP Spectre",
+        price: "610 900 KTZ",
+        cpu: "Intel Core i5 1135G7",
+        operation_system: "Microsoft Windows 10 Home",
+        display: "13.5 WUXGA+",
+    },
+]
+
+export default laptops;
